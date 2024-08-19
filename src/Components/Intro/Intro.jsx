@@ -13,8 +13,9 @@
 import { useContext } from 'react';
 import { themeContext } from '../Context';
 import {motion} from "framer-motion";
+
  const Intro = () => {
-   const designType= {duration: 2, type: "spring"};
+   const designType= {duration: 4, type: "spring"};
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
    return (
@@ -42,16 +43,26 @@ import {motion} from "framer-motion";
             <img src={vector2} alt='#'/>
             <img src={boy} alt='#'/>
             <motion.img
-            initial = {{left: "-36%"}}
+            initial = {{left: "-50%"}}
             whileInView = {{left: "-24%"}}
             transition = {designType}
             src={glassesImoji} alt='#'/>
-       <div style={{left:'25rem'}}>
+
+       <motion.div 
+       initial={{left:"40rem"}}
+       whileInView={{left:"28rem"}}
+       transition={designType}
+       style={{left:'25rem',zIndex: "-1"}}>
           <FloatingDiv image ={crown} text1 ="web" text2="developer"/>
-       </div>
-       <div style={{top: "50rem",left: "3rem"}}>
+       </motion.div>
+
+       <motion.div
+       initial={{left:""}}
+       whileInView={{}}
+       transition={designType}
+       style={{top: "50rem",left: "3rem"}} >
           <FloatingDiv image={thumbup} text1 = "Best Design" text2= "Award"/>
-       </div>
+       </motion.div>
 
        <div className='blur' style={{background: "rgb(238 210 255)"}}>
 
