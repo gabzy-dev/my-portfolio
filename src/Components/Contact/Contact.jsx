@@ -4,10 +4,10 @@ import emailjs from '@emailjs/browser';
 import { useRef,useState } from 'react';
 import { themeContext } from '../Context'
 import { useContext } from 'react'
-import {motion} from "framer-motionm"
+
 
 const Contact = () => {
-  const transition = {duration:2, type: "spring"};
+
     const form = useRef();
     const [done,setDone] = useState(false);
     

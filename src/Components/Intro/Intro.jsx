@@ -12,7 +12,9 @@
  import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import { useContext } from 'react';
 import { themeContext } from '../Context';
+import {motion} from "framer-motion";
  const Intro = () => {
+   const designType= {duration: 2, type: "spring"};
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
    return (
@@ -39,7 +41,11 @@ import { themeContext } from '../Context';
             <img src={vector1} alt='#'/>
             <img src={vector2} alt='#'/>
             <img src={boy} alt='#'/>
-            <img src={glassesImoji} alt='#'/>
+            <motion.img
+            initial = {{left: "-36%"}}
+            whileInView = {{left: "-24%"}}
+            transition = {designType}
+            src={glassesImoji} alt='#'/>
        <div style={{left:'25rem'}}>
           <FloatingDiv image ={crown} text1 ="web" text2="developer"/>
        </div>
