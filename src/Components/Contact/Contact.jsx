@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { useRef,useState } from 'react';
 import { themeContext } from '../Context'
 import { useContext } from 'react'
-import 
+import {motion} from "fra"
 
 const Contact = () => {
     const form = useRef();
