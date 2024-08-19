@@ -1,0 +1,47 @@
+.portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+}
+
+.portfolio span:nth-of-type(1){
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.portfolio span:nth-of-type(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.swiper-container{
+    height: 100%;
+    width: 100%;
+    /* flex: 1; */
+    margin-top: 2rem;
+}
+
+.portfolio .swiper{
+    overflow: visible!important;
+}
+
+.swiper-container{
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.swiper-container .swiper-slide{
+   width: 20rem; 
+}
+
+.swiper-container img{
+  width: 19rem;
+  filter: drop-shadow(-12px 15px 3px rgba(0,0,0,0.25));
+  border-radius: 19px;
+}
+
+
