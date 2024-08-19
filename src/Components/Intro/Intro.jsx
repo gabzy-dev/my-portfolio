@@ -57,7 +57,7 @@ import {motion} from "framer-motion";
        </motion.div>
 
        <motion.div
-       initial={{left:""}}
+       initial={{}}
        whileInView={{}}
        transition={designType}
        style={{top: "50rem",left: "3rem"}} >
