@@ -57,10 +57,10 @@ import {motion} from "framer-motion";
        </motion.div>
 
        <motion.div
-       initial={{}}
-       whileInView={{}}
+       initial={{right: "-90rem"}}
+       whileInView={{right:"-15rem"}}
        transition={designType}
-       style={{top: "50rem",left: "3rem"}} >
+       style={{top: "50rem",left: "3rem", zIndex:"-1"}} >
           <FloatingDiv image={thumbup} text1 = "Best Design" text2= "Award"/>
        </motion.div>
 
