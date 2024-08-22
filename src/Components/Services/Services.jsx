@@ -7,10 +7,11 @@ import humble from "../../img/humble.png";
 import resume from "../Services/EGABOR GEORGE latest.pdf"
 import { themeContext } from '../Context';
 import { useContext } from 'react';
-
+import {motion} from "framer-motion";
 const Services = () => {
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
+   const designType= {duration: 1,type: "spring"};
   return (
     <div className='services'>
 
@@ -38,27 +39,39 @@ const Services = () => {
        {/*right side*/}
 
         <div className='cards'>
-           <div style={{left: "4rem"}}>
+           <motion.div 
+           whileInView={{left:"0rem"}}
+           initial={{left: "10rem"}}
+           transition={designType}
+           style={{left: "4rem"}}>
             <Card emoji = {heartEmoji}
             heading = {"Design"}
             details ={"Css,Bootstrap"}/>
 
-           </div>
-           <div style={{top: '15rem', left:"-13rem" }}>
+           </motion.div>
+           <motion.div 
+           initial={{left:"-15rem"}}
+           whileInView={{left:"-13rem"}}
+           transition={{designType}}
+           style={{top: '15rem',left: "-13rem",zIndex: -1 }}>
               <Card
               emoji ={glasses}
               heading={"Frontend Languages"}
               details={"Html,Javacript,React"}
               />
-           </div>
+           </motion.div>
 
-           <div style={{top: '19rem', left:"3rem" }}>
+           <motion.div 
+            whileInView={{left:"2rem"}}
+            initial={{left: "10rem"}}
+            transition={{designType}}
+           style={{top: '19rem', left:"3rem" }}>
               <Card
               emoji ={humble}
               heading={"Backend Languages"}
               details={"Node,Express,MongoDb"}
               />
-           </div>
+           </motion.div>
 
            <div className='blur s-blur2' style={{background:'var(--purple)'}}></div>
         </div>

@@ -15,7 +15,7 @@ import { themeContext } from '../Context';
 import {motion} from "framer-motion";
 
  const Intro = () => {
-   const designType= {duration: 4, type: "spring"};
+   const designType= {duration: 4,type: "spring"};
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
    return (
@@ -57,11 +57,14 @@ import {motion} from "framer-motion";
        </motion.div>
 
        <motion.div
-       initial={{right: "-90rem"}}
-       whileInView={{right:"-15rem"}}
-       transition={designType}
-       style={{top: "50rem",left: "3rem", zIndex:"-1"}} >
-          <FloatingDiv image={thumbup} text1 = "Best Design" text2= "Award"/>
+
+        initial={{left:"-50%"}}
+        whileInView={{left:"25%"}}
+        transition={designType}
+
+
+        style={{top:"50rem"}}>
+           <FloatingDiv image={thumbup} text1 = "Best Design" text2= "Award"/>
        </motion.div>
 
        <div className='blur' style={{background: "rgb(238 210 255)"}}>
