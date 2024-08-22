@@ -13,7 +13,7 @@ const Services = () => {
    const darkMode = theme.state.darkMode;
    const designType= {duration: 1,type: "spring"};
   return (
-    <div className='services'>
+    <div className='services' id='Services'>
 
         {/* left side*/}
        <div className='awesome'>
@@ -53,7 +53,7 @@ const Services = () => {
            initial={{left:"-15rem"}}
            whileInView={{left:"-13rem"}}
            transition={{designType}}
-           style={{top: '15rem',left: "-13rem",zIndex: -1 }}>
+           style={{top: '15rem',left: "-13rem"}}>
               <Card
               emoji ={glasses}
               heading={"Frontend Languages"}

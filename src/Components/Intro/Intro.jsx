@@ -56,16 +56,14 @@ import {motion} from "framer-motion";
           <FloatingDiv image ={crown} text1 ="web" text2="developer"/>
        </motion.div>
 
-       <motion.div
+       {/* <motion.div
 
-        initial={{left:"-50%"}}
-        whileInView={{left:"25%"}}
+        initial={{right: "-20rem"}}
+        whileInView={{right:"0rem"}}
         transition={designType}
-
-
-        style={{top:"50rem"}}>
+        style={{top:"50rem",left: "-5rem",position:"absolute"}}>
            <FloatingDiv image={thumbup} text1 = "Best Design" text2= "Award"/>
-       </motion.div>
+       </motion.div> */}
 
        <div className='blur' style={{background: "rgb(238 210 255)"}}>
 
