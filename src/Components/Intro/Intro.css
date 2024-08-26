@@ -118,6 +118,10 @@ top: 12rem;
     filter: blur(75px);
 }
 
+@media screen and (max-width: 480px){
+    
+}
+
 
 
 

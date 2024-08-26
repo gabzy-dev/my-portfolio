@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center
 
-};
+}
 
 .n-left{
     flex: 1;
@@ -36,15 +36,24 @@
 
 .n-list>ul{
  display: flex;
- gap: 3rem;
+ gap: 4rem;
+ cursor: pointer;
  /* margin-right: 1rem; */
 }
 
-.n-list>ul>li:hover{
+
+
+/* ul>li:hover{
     cursor: pointer;
     color: var(--orange);
-}
+} */
 
 .n-button{
     flex: 1;
+}
+
+@media screen and (max-width: 480px){
+ .n-list{
+    display: none;
+ }   
 }
