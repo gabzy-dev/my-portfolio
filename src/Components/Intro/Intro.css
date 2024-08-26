@@ -118,12 +118,52 @@ top: 12rem;
     filter: blur(75px);
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width:480px){
+    .intro{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .i-right{
+        left: -7rem;
+        top: 27rem;
+        align-items: center;
+        overflow: visible;
+        align-items: center;
+        justify-content: center;
+ 
+    }
+
+    .i-right >*{
+   transform: scale(0.4rem);
+    }
+/* 
+    .i-right .blur{
+        display: none;
+    }
     
+
+    .i-right > img{
+        transform: scale(0.4);
+    }
+  
+
+    .i-right >img:nth-of-type(3){
+     transform: scale(1.2);
+    }
+
+    .i-right >img:nth-of-type(4){
+        top: 3rem;
+        right: -10rem;
+    }
+
+    /* .floating-div{
+     transform: scale(0.8);
+     right: 6rem;
+    } */ 
+
+   
 }
-
-
-
-
 
 
