@@ -16,3 +16,8 @@ justify-content: space-around;
     transform: scale(0.6);
 }
 
+@media screen and (max-width:480px){
+    .floatingdiv{
+        right: 13rem;
+    }
+}
