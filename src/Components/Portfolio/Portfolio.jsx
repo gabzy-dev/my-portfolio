@@ -25,7 +25,7 @@ const Portfolio = () => {
       grabCursor={true}
       className='swiper-container'>
             <SwiperSlide>
-                <img src={gymLogo} alt='#'/>
+          <img src={gymLogo} alt='#' /> 
             </SwiperSlide>
             <SwiperSlide>
                 <img src={realEstateLogo} alt='#'/>
@@ -34,7 +34,14 @@ const Portfolio = () => {
                  <img src={foodApp} alt='#'/>
             </SwiperSlide>
         </Swiper>
-  
+<div className='portfolio-div'>
+<ul className='portfolio-links'>
+              <a href='https://food-order-app-q4kb.vercel.app/'> Gym app</a>
+              <a href='https://realestsate-master.vercel.app/'>real estate site</a>
+              <a href='https://food-order-app-q4kb.vercel.app/'>food order site</a>
+          </ul>
+</div>
+         
        
     </div>
   )

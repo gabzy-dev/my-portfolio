@@ -55,3 +55,9 @@
 .content >:nth-child(2){
     color: orange;
 }
+
+@media screen and (max-width:480px){
+    .achievement{
+    margin-top: 7rem;
+    }
+}

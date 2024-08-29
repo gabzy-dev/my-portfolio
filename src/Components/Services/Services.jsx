@@ -46,7 +46,7 @@ const Services = () => {
            style={{left: "4rem"}}>
             <Card emoji = {heartEmoji}
             heading = {"Design"}
-            details ={"Css,Bootstrap"}/>
+            details ={"Bootsrrap,CSS,tailwind,"}/>
 
            </motion.div>
            <motion.div 

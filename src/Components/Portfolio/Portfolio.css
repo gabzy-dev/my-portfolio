@@ -44,4 +44,27 @@
   border-radius: 19px;
 }
 
+.portfolio-div{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.portfolio-links{
+    /* display: flex; */
+   flex-direction: row;
+
+    /* gap: 15rem; */}
+
+.portfolio-links > a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    /* text-align: center; */
+     white-space: nowrap;
+     font-size: large;
+     font-weight: bold;
+     line-height: 1.5rem;
+  
+    
+}
 

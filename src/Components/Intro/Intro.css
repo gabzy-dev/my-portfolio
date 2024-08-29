@@ -141,12 +141,13 @@ top: 12rem;
     }
 
     .i-right > img{
-        transform: scale(0.4);
+        transform: scale(0.8);
+        z-index: -1;
     }
   
 
     .i-right >img:nth-of-type(3){
-     transform: scale(1.2);
+     transform: scale(1.7);
     }
 
  .i-right >img:nth-of-type(4){
@@ -158,8 +159,8 @@ top: 12rem;
 
 .floating-div{
     transform: scale(0.6);
-    /* margin-right: 6rem; */
-    
+ 
+    /* margin-right: 6rem; */   
 }
  
 
