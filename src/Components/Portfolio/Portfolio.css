@@ -61,10 +61,12 @@
     color: black;
     /* text-align: center; */
      white-space: nowrap;
-     font-size: large;
+     font-size:1.3rem;
      font-weight: bold;
-     line-height: 1.5rem;
-  
+     line-height: 1.8rem;
+     align-items: center;
+     justify-content: center;
+     color: orange;
 }
 
 

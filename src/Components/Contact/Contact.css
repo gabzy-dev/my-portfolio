@@ -47,3 +47,60 @@
     left: 3rem;
 }
 
+@media screen and (max-width:480px){
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        height: 40rem;
+        gap: 6rem;    
+        margin-bottom: 3rem;
+
+    }
+
+    .awesome {
+        left: 1.5rem;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+  .c-right{
+   /* overflow:hidden;; */
+   display: flex;
+   flex-direction: column;
+   /* padding: 0 25px;
+   margin:  0 25px; */
+   width: 100%;
+   justify-content: space-around;
+   margin-top: -5rem;
+  
+   /* justify-content: space-around; */
+   /* left: -3rem; */
+   
+   /* width: fit-content; */
+   /* left: -4rem; */
+   /* justify-content: space-around; */
+  
+  }
+
+  .c-right div{
+    display: none;
+  }
+
+.c-right input:nth-of-type(1){
+  width: 150%;
+}
+
+.c-right input:nth-of-type(2){
+    width: 150%;
+}
+
+.c-right textarea{
+    width: 150%
+}
+.c-right span{
+ color: orange;
+ margin-left: 2rem;
+ margin-top: 1.5rem;
+}
+
+}

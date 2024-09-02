@@ -37,8 +37,8 @@ const Portfolio = () => {
 <div className='portfolio-div'>
 <ul className='portfolio-links'>
               <a href='https://food-order-app-q4kb.vercel.app/'> Gym app</a>
-              <a href='https://realestsate-master.vercel.app/'>real estate site</a>
-              <a href='https://food-order-app-q4kb.vercel.app/'>food order site</a>
+              <a href='https://realestsate-master.vercel.app/'>Real estate site</a>
+              <a href='https://food-order-app-q4kb.vercel.app/'>Food order site</a>
           </ul>
 </div>
          

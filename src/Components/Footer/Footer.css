@@ -22,3 +22,22 @@
  gap: 1rem;
 }
 
+@media screen and (max-width:480px){
+ .footer{
+ height: 20rem;
+ }
+
+ .footer img{
+  height: 25rem;
+ }
+
+ .f-content span{
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 2.5rem;
+ }
+
+   .f-icons{
+    margin-left: 2.5rem;
+   }
+}
