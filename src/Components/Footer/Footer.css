@@ -23,28 +23,41 @@
 }
 
 @media screen and (max-width:480px){
+
+  .f-content{
+        transform: scale(0.5);
+  }
+
+  .f-content span{
+    transform: scale(2.0);
+   margin-left: 3rem;
+  }
+
+  .footer img{
+    height: 15rem;
+ }
+    
  .footer{
  height: 15rem;
- }
+ }  
 
- .footer img{
+ /* .footer img{
   height: 25rem;
-  max-width: 100%;
- }
+  width: fit-content;
 
- .f-content span{
+} */
+
+ /* .f-content span{
    margin: 0 10px;
    display: flex;
    align-items: center;
    margin-left: 3rem;
 
- }
+ } */
 
- .f-icons{
+ /* .f-icons{
     display: flex;
     margin-bottom: 1rem; 
     margin-left: 2.5rem;
- }
-
-   
-}
+ } */
+};
