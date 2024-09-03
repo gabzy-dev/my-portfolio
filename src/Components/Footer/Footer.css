@@ -24,17 +24,26 @@
 
 @media screen and (max-width:480px){
  .footer{
- height: 20rem;
+ height: 15rem;
  }
 
  .footer img{
   height: 25rem;
+  max-width: 100%;
  }
 
  .f-content span{
-  justify-content: space-around;
-  align-items: center;
+   margin: 0 10px;
+   display: flex;
+   align-items: center;
+   margin-left: 3rem;
 
+ }
+
+ .f-icons{
+    display: flex;
+    margin-bottom: 1rem; 
+    margin-left: 2.5rem;
  }
 
    
