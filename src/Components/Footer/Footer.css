@@ -30,7 +30,7 @@
 
   .f-content span{
     transform: scale(2.0);
-    margin-right: 3rem;
+    margin-right: 5rem;
   }
 
   .footer img{
@@ -41,6 +41,10 @@
  height: 15rem;
  /* display: none; */
  }   
+
+ .f-icons{
+  margin-right: 5rem;
+ }
 
  /* .footer img{
   height: 25rem;
