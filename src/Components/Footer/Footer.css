@@ -25,12 +25,12 @@
 @media screen and (max-width:480px){
 
   .f-content{
-        transform: scale(0.5);
+        transform: scale(0.5);    
   }
 
   .f-content span{
     transform: scale(2.0);
-   margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .footer img{
@@ -39,7 +39,8 @@
     
  .footer{
  height: 15rem;
- }  
+ /* display: none; */
+ }   
 
  /* .footer img{
   height: 25rem;
