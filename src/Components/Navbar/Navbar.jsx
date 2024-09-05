@@ -30,7 +30,7 @@ const Navbar = () => {
          <Link spy={true} to="Portfolio">
          <li>Portfolio</li>
          </Link>   
-            <button className='button n-button'> Contact us</button>
+          <Link spy={true} to='Contact'>  <button className='button n-button'> Contact us</button> </Link> 
         </ul>
     </div>
     

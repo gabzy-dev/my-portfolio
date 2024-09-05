@@ -13,11 +13,15 @@
 import { useContext } from 'react';
 import { themeContext } from '../Context';
 import {motion} from "framer-motion";
+import {Link} from "react-scroll"
 
  const Intro = () => {
    const designType= {duration: 4,type: "spring"};
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
+   const activeClass = "active";
+
+  
    return (
      <div className='intro'>
   <div className='i-left'>
@@ -29,7 +33,8 @@ import {motion} from "framer-motion";
                 in web designing and development.
                </span>
             </div>
-            <button className='button i-button'>Hire me</button>
+            
+      <Link spy={true} to= "Contact" activeClass={activeClass}> <button className='button i-button'>Hire me</button> </Link>
             <div className='i-icon'>
                <a href='https://www.instagram.com/egabzy?igsh=Ymo4a3JrMnc2c2l2&utm_source=qr'> <img  src={instagram} alt='#'/> </a>  
                 <a href='https://github.com/gabzy-dev'> <img src={github} alt='#'/> </a>
