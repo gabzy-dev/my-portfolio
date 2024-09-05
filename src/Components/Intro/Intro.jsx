@@ -53,7 +53,7 @@ import {motion} from "framer-motion";
        initial={{left:"40rem"}}
        whileInView={{left:"28rem"}}
        transition={designType}
-       style={{left:'25rem',zIndex: "-1"}}
+       style={{left:'25rem',zIndex: "1"}}
        className='floating-div'>
           <FloatingDiv image ={crown} text1 ="web" text2="developer"/>
        </motion.div>
